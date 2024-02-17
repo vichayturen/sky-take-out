@@ -11,5 +11,5 @@ public class MinioProperties {
     private String endpoint;
     private String accesskey;
     private String secretKey;
-    private String bucket;
+    private String bucketName;
 }

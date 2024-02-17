@@ -72,4 +72,4 @@ sky:
     endpoint: http://127.0.0.1:9000
     accessKey: fwjqaoYiddnEv9RNhcky
     secretKey: uIKfjrdJfadQ7I5EekkqkE9nH8b5R4TbI9eWYBxa
-    bucket: sky-take-out
+    bucketName: sky-take-out

@@ -123,11 +123,11 @@
                 <version>0.4.8</version>
             </dependency>
             <!-- minio对象存储 -->
-            <dependency>
-                <groupId>io.minio</groupId>
-                <artifactId>minio</artifactId>
-                <version>8.5.2</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>io.minio</groupId>-->
+<!--                <artifactId>minio</artifactId>-->
+<!--                <version>8.5.2</version>-->
+<!--            </dependency>-->
 
         </dependencies>
     </dependencyManagement>
