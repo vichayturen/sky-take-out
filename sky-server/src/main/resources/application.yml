@@ -69,7 +69,7 @@ sky:
   baidu:
     ak: your-ak
   minio:
-    endpoint: http://127.0.0.1:9000
-    accessKey: fwjqaoYiddnEv9RNhcky
-    secretKey: uIKfjrdJfadQ7I5EekkqkE9nH8b5R4TbI9eWYBxa
-    bucketName: sky-take-out
+    endpoint: ${sky.minio.endpoint}
+    accessKey: ${sky.minio.accessKey}
+    secretKey: ${sky.minio.secretKey}
+    bucketName: ${sky.minio.bucketName}

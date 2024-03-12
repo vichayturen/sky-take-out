@@ -40,7 +40,7 @@ public class DishController {
 
         //查询redis中是否存在菜品数据
         List<DishVO> list = (List<DishVO>) redisTemplate.opsForValue().get(key);
-        if(list != null && list.size() > 0){
+        if(list != null && !list.isEmpty()){
             //如果存在，直接返回，无须查询数据库
             return Result.success(list);
         }
